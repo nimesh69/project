@@ -158,7 +158,7 @@ function App() {
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center">My Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[1, 2, 3].map((project) => (
+              {[1, 2, 3, 4, 5, 6].map((project) => (
                 <div key={project} className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
                   <div className="aspect-video bg-gray-200 dark:bg-gray-700"></div>
                   <div className="p-6">
