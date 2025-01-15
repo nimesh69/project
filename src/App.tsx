@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, Home, User, FolderGit2, Sun, Moon, Github, Linkedin, Twitter, Instagram, Mail } from 'lucide-react';
+import { Menu, Home, User, FolderGit2, Sun, Moon, Github, Linkedin, Twitter, Instagram, Mail, Facebook } from 'lucide-react';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -213,6 +213,15 @@ function App() {
               >
                 <Instagram className="w-8 h-8 text-pink-600 dark:text-pink-400" />
                 <span className="text-gray-600 dark:text-gray-300">Instagram</span>
+              </a>
+              <a
+                href="https://instagram.com/yourusername"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+              >
+                <Facebook className="w-8 h-8 text-pink-600 dark:text-pink-400" />
+                <span className="text-gray-600 dark:text-gray-300">Facebook</span>
               </a>
             </div>
           </div>
