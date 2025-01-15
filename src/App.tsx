@@ -179,7 +179,7 @@ function App() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center">Let's Connect</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/nimesh69"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
@@ -188,7 +188,7 @@ function App() {
                 <span className="text-gray-600 dark:text-gray-300">GitHub</span>
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/nimesh-shrestha-b22057206/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
@@ -197,7 +197,7 @@ function App() {
                 <span className="text-gray-600 dark:text-gray-300">LinkedIn</span>
               </a>
               <a
-                href="https://twitter.com/yourusername"
+                href="https://x.com/___Daku___"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
@@ -206,7 +206,7 @@ function App() {
                 <span className="text-gray-600 dark:text-gray-300">Twitter</span>
               </a>
               <a
-                href="https://instagram.com/yourusername"
+                href="https://www.instagram.com/__nimeshshrestha__/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
@@ -215,7 +215,7 @@ function App() {
                 <span className="text-gray-600 dark:text-gray-300">Instagram</span>
               </a>
               <a
-                href="https://instagram.com/yourusername"
+                href="https://www.facebook.com/nimesh.stha.75"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
