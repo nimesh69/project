@@ -180,8 +180,7 @@ function App() {
 
 
         {/* Connect Section */}
-        <section id="connect" className="min-h-screen py-20 bg-white dark:bg-gray-800">
-          <div className="max-w-4xl mx-auto px-4">
+          <div id="connect" className="max-w-4xl mx-auto px-4">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center">Let's Connect</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <a
@@ -231,7 +230,6 @@ function App() {
               </a>
             </div>
           </div>
-        </section>
       </main>
     </div>
   );
