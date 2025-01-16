@@ -302,82 +302,86 @@ function App() {
 
         {/* Projects Section */}
         <section
-          id="projects"
-          className="min-h-screen py-20 bg-gray-50 dark:bg-gray-900"
+  id="projects"
+  className="min-h-screen py-20 bg-gray-50 dark:bg-gray-900"
+>
+  <div className="max-w-7xl mx-auto px-4">
+    <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center">
+      My Projects
+    </h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {[
+        {
+          id: 1,
+          title: "Project 1",
+          description: "An innovative project solving problem X with technology Y.",
+          image: projectImage, // Replace with your image path
+          github: "https://github.com/user/project1", // GitHub link
+        },
+        {
+          id: 2,
+          title: "Project 2",
+          description: "A creative app designed for enhancing user experience in Z.",
+          image: "/images/project2.jpg",
+          github: "https://github.com/user/project2",
+        },
+        {
+          id: 3,
+          title: "Project 3",
+          description: "A powerful tool for streamlining workflows in A industry.",
+          image: "/images/project3.jpg",
+          github: "https://github.com/user/project3",
+        },
+        {
+          id: 4,
+          title: "Project 4",
+          description: "A machine learning solution tackling challenges in B field.",
+          image: "/images/project4.jpg",
+          github: "https://github.com/user/project4",
+        },
+        {
+          id: 5,
+          title: "Project 5",
+          description: "An open-source library simplifying development in C.",
+          image: "/images/project5.jpg",
+          github: "https://github.com/user/project5",
+        },
+        {
+          id: 6,
+          title: "Project 6",
+          description: "A community-driven project aimed at D sector improvements.",
+          image: "/images/project6.jpg",
+          github: "https://github.com/user/project6",
+        },
+      ].map((project) => (
+        <a
+          key={project.id}
+          href={project.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group block bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
         >
-          <div className="max-w-7xl mx-auto px-4">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center">
-              My Projects
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[
-                {
-                  id: 1,
-                  title: "Project 1",
-                  description:
-                    "An innovative project solving problem X with technology Y.",
-                  image: projectImage, // Replace with your image path
-                },
-                {
-                  id: 2,
-                  title: "Project 2",
-                  description:
-                    "A creative app designed for enhancing user experience in Z.",
-                  image: "/images/project2.jpg", // Replace with your image path
-                },
-                {
-                  id: 3,
-                  title: "Project 3",
-                  description:
-                    "A powerful tool for streamlining workflows in A industry.",
-                  image: "/images/project3.jpg", // Replace with your image path
-                },
-                {
-                  id: 4,
-                  title: "Project 4",
-                  description:
-                    "A machine learning solution tackling challenges in B field.",
-                  image: "/images/project4.jpg", // Replace with your image path
-                },
-                {
-                  id: 5,
-                  title: "Project 5",
-                  description:
-                    "An open-source library simplifying development in C.",
-                  image: "/images/project5.jpg", // Replace with your image path
-                },
-                {
-                  id: 6,
-                  title: "Project 6",
-                  description:
-                    "A community-driven project aimed at D sector improvements.",
-                  image: "/images/project6.jpg", // Replace with your image path
-                },
-              ].map((project) => (
-                <div
-                  key={project.id}
-                  className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden"
-                >
-                  <div className="aspect-video bg-gray-200 dark:bg-gray-700">
-                    <img
-                      src={project.image}
-                      alt={project.title}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
-                      {project.title}
-                    </h3>
-                    <p className="text-gray-600 dark:text-gray-300">
-                      {project.description}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
+          <div className="aspect-video bg-gray-200 dark:bg-gray-700">
+            <img
+              src={project.image}
+              alt={project.title}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            />
           </div>
-        </section>
+          <div className="p-6">
+            <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
+              {project.title}
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">
+              {project.description}
+            </p>
+          </div>
+      </a>
+      ))}
+    </div>
+  </div>
+</section>
+
         {/* Connect Section */}
         <div id="connect" className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center">
