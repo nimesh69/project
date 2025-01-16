@@ -316,42 +316,42 @@ function App() {
           title: "Project 1",
           description: "An innovative project solving problem X with technology Y.",
           image: projectImage, // Replace with your image path
-          github: "https://github.com/user/project1", // GitHub link
+          github: "https://github.com/nimesh69/Hand-Gesture-Recognition", // GitHub link
         },
         {
           id: 2,
           title: "Project 2",
           description: "A creative app designed for enhancing user experience in Z.",
           image: "/images/project2.jpg",
-          github: "https://github.com/user/project2",
+          github: "https://github.com/nimesh69/Recovering-and-Enhancing-Digital-Facial-Images-",
         },
         {
           id: 3,
           title: "Project 3",
           description: "A powerful tool for streamlining workflows in A industry.",
           image: "/images/project3.jpg",
-          github: "https://github.com/user/project3",
+          github: "https://github.com/nimesh69/project",
         },
         {
           id: 4,
           title: "Project 4",
           description: "A machine learning solution tackling challenges in B field.",
           image: "/images/project4.jpg",
-          github: "https://github.com/user/project4",
+          github: "https://github.com/nimesh69/project-website",
         },
         {
           id: 5,
           title: "Project 5",
           description: "An open-source library simplifying development in C.",
           image: "/images/project5.jpg",
-          github: "https://github.com/user/project5",
+          github: "https://github.com/nimesh69/football-dbms-",
         },
         {
           id: 6,
           title: "Project 6",
           description: "A community-driven project aimed at D sector improvements.",
           image: "/images/project6.jpg",
-          github: "https://github.com/user/project6",
+          github: "https://github.com/nimesh69/website",
         },
       ].map((project) => (
         <a
