@@ -14,13 +14,13 @@ import {
   Facebook,
   Cable,
 } from "lucide-react";
-import projectImage from "./images/Screenshot 2025-01-17 093230.png";
-import projectImage1 from "./images/0_00.png";
-import projectImage2 from "./images/Screenshot 2025-01-17 103959.png";
-import projectImage5 from "./images/Screenshot 2025-01-17 104756.png";
-import projectImage3 from "./images/Screenshot 2025-01-17 105836.png";
-import projectImage4 from "./images/Screenshot 2025-01-17 110157.png";
-import profile from "./images/20211113_110355 - Copy.jpg";
+import projectImage from "./images/project1.png";
+import projectImage1 from "./images/project2.png";
+import projectImage2 from "./images/project3.png";
+import projectImage5 from "./images/project6.png";
+import projectImage3 from "./images/project4.png";
+import projectImage4 from "./images/project5.png";
+import profile from "./images/profile.jpg";
 function App() {
   const [activeSection, setActiveSection] = useState("home");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -166,7 +166,7 @@ function App() {
               Welcome to My Portfolio
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-6">
-              I'm a passionate developer creating amazing web experiences
+              I'm a Computer Engineer and a passionate Learner.
             </p>
             <a
               href="mailto:nimeshstha79@gmail.com"
