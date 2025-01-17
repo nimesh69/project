@@ -196,6 +196,7 @@ function App() {
               <div className="flex justify-center">
                 <img
                   src={profile} // Replace with the path to your image
+                  // src="https://i.postimg.cc/4NjQ2L1J/profile.jpg" // Replace with the path to your image
                   alt="Profile"
                   className="w-60 h-60 rounded-full object-cover border-4 border-gray-300 dark:border-gray-700 shadow-lg"
                 />
@@ -383,6 +384,7 @@ function App() {
                   title: "Hand-Gesture-Recognition",
                   description:
                     "A cutting-edge project utilizing computer vision for recognizing hand gestures, enhancing user interaction with devices.",
+                  // image: "https://i.postimg.cc/wvFkW9wP/project1.png", // Replace with your image path
                   image: projectImage, // Replace with your image path
                   github:
                     "https://github.com/nimesh69/Hand-Gesture-Recognition", // GitHub link
@@ -393,6 +395,7 @@ function App() {
                   description:
                     "An app designed to improve and restore digital facial images using advanced algorithms(GAN), offering enhanced visual experiences.",
                   image: projectImage1,
+                  // image: "https://i.postimg.cc/ZnRx2Xgq/project2.png",
                   github:
                     "https://github.com/nimesh69/Recovering-and-Enhancing-Digital-Facial-Images-",
                 },
@@ -402,6 +405,7 @@ function App() {
                   description:
                     "A dynamic portfolio website showcasing personal projects, designed to highlight technical skills and professional achievements.",
                   image: projectImage2,
+                  // image: "https://i.postimg.cc/0jB0scR0/project3.png",
                   github: "https://github.com/nimesh69/project",
                 },
                 {
@@ -410,6 +414,8 @@ function App() {
                   description:
                     "A machine learning-based web application focused on solving real-world problems in a specific industry, improving operational efficiency.",
                   image: projectImage3,
+                  // image: "https://i.postimg.cc/ZY7cpKBv/project4.png",
+
                   github: "https://github.com/nimesh69/project-website",
                 },
                 {
@@ -418,6 +424,8 @@ function App() {
                   description:
                     "An open-source web application for managing and analyzing football statistics, designed to simplify football data management.",
                   image: projectImage4,
+                  // image: "https://i.postimg.cc/0ymdTYt7/project5.png",
+
                   github: "https://github.com/nimesh69/football-dbms-",
                 },
                 {
@@ -426,6 +434,8 @@ function App() {
                   description:
                     "A website created to provide resources and solutions for community-driven improvements in a specific sector, with a focus on accessibility and innovation.",
                   image: projectImage5,
+                  // image: "https://i.postimg.cc/9fhtCDSK/project6.png",
+
                   github: "https://github.com/nimesh69/website",
                 },
               ].map((project) => (
